@@ -1,0 +1,8 @@
+{
+    "name": "kashi/kashipkg",
+    "description": "This package is for testing",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
