@@ -48,7 +48,7 @@ You can install and use package by performing these instructions
     <li>If you need all crud apis for the created model, then you need to use another trait named as <b>*LaravelAdminAPI*</b></li>
     <li>Open the postman attached collection, import the collection and environment variables file on postman.</li>
     <li>
-        <h5>Postman Guide</h5>
+        <b>Postman Guide</b><br>
         <a href="public/readme-assets/postman/Laravel-Administration.postman_collection.json" download>LaravelAdministration Collection</a> <br>
         <a href="public/readme-assets/postman/Laravel-Administration.postman_environment.json" download>LaravelAdministration Evnvironment</a> <br>
     </li>
