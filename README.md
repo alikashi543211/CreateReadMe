@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/readme-images//laravel_administration.jpg" width="800" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/readme-assets/images/laravel_administration.jpg" width="800" alt="Laravel Logo"></a></p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
@@ -47,6 +47,11 @@ You can install and use package by performing these instructions
 <ol>
     <li>If you need all crud apis for the created model, then you need to use another trait named as <b>*LaravelAdminAPI*</b></li>
     <li>Open the postman attached collection, import the collection and environment variables file on postman.</li>
+    <li>
+        <h5>Postman Guide</h5>
+        <a href="public/readme-assets/postman/Laravel-Administration.postman_collection.json" download>LaravelAdministration Collection</a> <br>
+        <a href="public/readme-assets/postman/Laravel-Administration.postman_environment.json" download>LaravelAdministration Evnvironment</a> <br>
+    </li>
     <li>You need to authenticate from login api first.</li>
     <li><b>{{host}}/api/admin/crud/models</b> 
         Model listing, from that api you can access all your models in which you use the LaravelAdminAPI trait and have been migrated. </li>
