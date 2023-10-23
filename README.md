@@ -16,11 +16,17 @@ If developer use the LaravelAdminAPI trait in model. Then laravel administration
 ## Installation and Usage Instructions
 
 You can install and use package by performing these instructions
+<h3>Create AUTO CRUD</h3>
 <ol>
     <li><b>composer require create-project laravel/laravel LaravelAdministration</b></li>
     <li>Migration the migrations files and seed <b>Php artisan migrate:fresh --seed</b></li>
-    <li>To make new Model <b>php artisan make:model DemoCRUD </b></li>
-    <li>To make new Model <b>php artisan make:model DemoCRUD </b></li>
+    <li>To make new Model with Migration <b>php artisan make:model DemoTester -m </b></li>
+    <li>Inside the DemoCRUD model add Trait in this way <b>use LaravelAdmin</b></li>
+    <li>You can edit migration <b>Make Fields of DemoTester like, teser_name, tester_email, tester_image, tester_is_verified</b></li>
+    <li>You can serve <b>php artisan serve</b></li>
+    <li>Go to url <b>base-url/admin</b></li>
+    <li>Login and Go to <b>base-app-url/admin/crud</b></li>
+    <li>You can view</li>
 </ol>
 
 
