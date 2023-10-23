@@ -13,9 +13,17 @@ Laravel Administration library provides the facility to developer to create only
 
 If developer use the LaravelAdminAPI trait in model. Then laravel administration package will provide the all apis for crud, developer not need to perform create, read, list and delete apis for that model. Developer only need to get the model id and set that model ID into Postman attached collection and test the all apis after authentication.
 
-## Learning Laravel
+## Installation and Usage Instructions
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+You can install and use package by performing these instructions
+<ol>
+    <li><b>composer require create-project laravel/laravel LaravelAdministration</b></li>
+    <li>Migration the migrations files and seed <b>Php artisan migrate:fresh --seed</b></li>
+    <li>To make new Model <b>php artisan make:model DemoCRUD </b></li>
+    <li>To make new Model <b>php artisan make:model DemoCRUD </b></li>
+</ol>
+
+
 
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
