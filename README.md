@@ -20,13 +20,39 @@ You can install and use package by performing these instructions
 <ol>
     <li><b>composer require create-project laravel/laravel LaravelAdministration</b></li>
     <li>Migration the migrations files and seed <b>Php artisan migrate:fresh --seed</b></li>
-    <li>To make new Model with Migration <b>php artisan make:model DemoTester -m </b></li>
+    <li>To make new Model with Migration <b>php artisan make:model CrudTester -m </b></li>
     <li>Inside the DemoCRUD model add Trait in this way <b>use LaravelAdmin</b></li>
     <li>You can edit migration <b>Make Fields of DemoTester like, teser_name, tester_email, tester_image, tester_is_verified</b></li>
+    <li>Migrate the DemoTester migration <b>php artisan migrate</b></li>
     <li>You can serve <b>php artisan serve</b></li>
     <li>Go to url <b>base-url/admin</b></li>
-    <li>Login and Go to <b>base-app-url/admin/crud</b></li>
-    <li>You can view</li>
+    <li>Login and Go to <b>base-app-url/admin/crud</b> </li>
+    <li>If DemoTester Model use LaravelAdmin trait and DemoTester Migration is migrated then DemoTester will be displayed in list.</li>
+    <li>Click on DemoTesterModel and can test all crud operations</li>
+    <li>Set the fillable fields array in DemoTester Model to show the fields, you want to display in Listing</li>
+    <li>You can add new DemoTester record, update and Delete the record.</li>
+</ol>
+
+<h3>Build Your Own Schema</h3>
+<ol>
+    <li>From Schema Builder tab, You can create a Model with migration by Clicking on Add new button</li>
+    <li>Add name for model and click on save button to define the schema fields for that model and Check the LaravelAdmin trait will be used or not.</li>
+    <li>After defining the fields of schema for that model you can edit the migration and model file.</li>
+    <li>You can edit migration and model before migrating</li>
+    <li>After clicking on migrate, you will not be able to edit files.</li>
+    <li>If your created model in schema builder contains LaravelAdmin trait then you can view CRUD of that model in CRUD tab</li>
+</ol>
+
+<h3>API Auto CRUD</h3>
+<ol>
+    <li>If you need all crud apis for the created model, then you need to use another trait named as <b>*LaravelAdminAPI*</b></li>
+    <li>Open the postman attached collection, import the collection and environment variables file on postman.</li>
+    <li>You need to authenticate from login api first.</li>
+    <li><b>{{host}}/api/admin/crud/models</b> 
+        Model listing, from that api you can access all your models in which you use the LaravelAdminAPI trait and have been migrated. </li>
+    <li>You can pick model id and set that model_id into environment variable.</li>
+    <li>After setting the model_id as environment variable, you can test all crud apis for that model.</li>
+    <li>For the Update data Api, you can use same Store API by passing the *id* field value.</li>
 </ol>
 
 
