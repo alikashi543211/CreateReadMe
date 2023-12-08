@@ -15,7 +15,7 @@ Follow these steps to install the Creative Deal Analysis project:
    
 2. Run the following command to install project dependencies:
    ```bash
-   composer update
+   composer update --ignore-platform-reqs
 
 3. Copy the provided `env.example` file to `.env` and set the required credentials:
    Email credentials
