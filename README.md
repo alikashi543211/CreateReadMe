@@ -92,4 +92,52 @@ In the Creative Deal Analysis project, two roles exist: Admin and User. Upon reg
 
 Please note that certain settings may require specific configurations or credentials, such as Vonage token and Vonage Key for phone number verification.
 
+# Creative Deal Analysis Working Flow
+
+## Registration, Login, Phone Number Verification, and Email Verification
+
+User accesses the home page of the Creative Deal Analysis Calculator and desires to use the Offer calculator form. However, the user must provide account details, such as email and password, to log in via the login popup. If the user doesn't have an account, registration is required using the register page. After registration, if the email verification toggle is enforced in the CMS, the user will be redirected to verify their email to access the Creative Deal Analysis Calculator.
+
+If phone number verification is enforced, the user can add values in the Property Address section of the Offer Form. Clicking "Next" triggers a phone number verification popup, where the user receives an OTP on their phone to verify the phone number. After entering the phone number and clicking "Send OTP," the user verifies the OTP to gain access to all steps of Offer creation in the Creative Deal Analysis Calculator.
+
+## Offer Create
+
+Offer creation in the Creative Deal Analysis Calculator involves several steps:
+1. **Property Address Section:** User adds details, clicks "Next" to proceed.
+2. **Entry Assumptions Section:** User enters required fields, with some fields auto-calculated.
+3. **Assumed Loan Section:** User enters loan details.
+4. **Frontend Expenses Section:** User adds details.
+5. **Seller Carry Section:** User provides seller carry details.
+6. **Gap Funding Section:** User adds details.
+7. **Cash Amount Section:** Last section; after submission, user is redirected to Calculation results.
+After final submission, user can click on "Final Result," containing Owner Finance, Lease Option, Rental, and Slot Results calculated from the Offer form values.
+
+## Send Offer
+
+Upon calculating the final result, the user sees a "Send Offer" button. They can send the calculated Offer by entering the seller's email and phone number and selecting the desired amortization schedule through the Send Offer Popup. The backend generates an Offer PDF, saved in the project's public folder, and is sent as an attachment to the provided seller email. The seller can review, sign, or reject the Offer.
+
+## Offer Listing
+
+- **Past Offers:** Offers generated but not sent to any seller.
+- **Sent Offers:** Offers sent to a seller.
+- **Signed Offers:** Offers reviewed and signed by the seller.
+- **Rejected Offers:** Offers reviewed and rejected by the seller.
+
+## Amortization Schedules Tabs on Final Results
+
+Tabs include:
+- Original Amortization
+- Gap Funding Amortization Schedules
+- Seller Carry Amortization Schedules
+- Owner Finance Amortization Schedules
+All schedules are based on Offer inputs.
+
+## Global Variables
+
+User can change global variable values by clicking on the "Global Variables" link in the header. Default values are used in DecFormulas to calculate Offer results based on inputs. Default global variable values are saved for each new user.
+
+## Profile Page
+
+In the profile page (accessible by clicking the profile button on the header), users can change profile pictures and information. Password changes can also be made from this page.
+
 
