@@ -74,14 +74,12 @@ Follow these steps to install the Creative Deal Analysis project:
 # CMS Flow
 
 <p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-1.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
-<p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-2.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
-<p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-3.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
-<p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-3.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
 
 In the Creative Deal Analysis project, two roles exist: Admin and User. Upon registration, a User is created, and only one Admin user exists in this project. Users with the "User" role cannot access the CMS page, while only those with the "Admin" role can access it. The CMS page contains various settings for the project.
 
 - Email Verification:
   - Toggle the Email Verification option to enable or disable email verification for this project.
+  <p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-2.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
 
 - Phone Number Verification:
   - Toggle the Phone Verification option to enable or disable phone number verification for this project.
@@ -91,6 +89,8 @@ In the Creative Deal Analysis project, two roles exist: Admin and User. Upon reg
 
 - US Numbers Only:
   - Toggle the US Numbers Allowed option to restrict user registration to only US numbers.
+    <p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-3.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
+<p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-3.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
 
 - Single User Per IP:
   - Toggle the Only Single User Per IP option to control whether only one user can be registered per IP address.
