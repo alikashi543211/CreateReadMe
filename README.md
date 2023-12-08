@@ -7,7 +7,7 @@ Follow these steps to install the Creative Deal Analysis project:
 
 0. Clone this project using the following command:
    ```bash
-   git clone [repository_url]
+   git clone git@github.com:hafizsiddiq7675/de-calculator.git
 
 1. Navigate to the project directory:
    ```bash
