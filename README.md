@@ -90,7 +90,7 @@ In the Creative Deal Analysis project, two roles exist: Admin and User. Upon reg
 - US Numbers Only:
   - Toggle the US Numbers Allowed option to restrict user registration to only US numbers.
     <p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-3.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
-<p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-3.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
+<p align="center"><a href="https://creativedealanalysis.bitsoftsol.com/" target="_blank"><img src="public/readme-assets/images/cms-4.jpg" width="800" alt="CMS Creative Deal Analysis"></a></p>
 
 - Single User Per IP:
   - Toggle the Only Single User Per IP option to control whether only one user can be registered per IP address.
