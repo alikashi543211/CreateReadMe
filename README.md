@@ -71,3 +71,25 @@ Follow these steps to install the Creative Deal Analysis project:
   - **GlobalVariableController:** Handles routes related to global variables.
   - **SettingController:** Manages CMS handling, handling all routes related to settings.
 
+# CMS Flow
+
+In the Creative Deal Analysis project, two roles exist: Admin and User. Upon registration, a User is created, and only one Admin user exists in this project. Users with the "User" role cannot access the CMS page, while only those with the "Admin" role can access it. The CMS page contains various settings for the project.
+
+- Email Verification:
+  - Toggle the Email Verification option to enable or disable email verification for this project.
+
+- Phone Number Verification:
+  - Toggle the Phone Verification option to enable or disable phone number verification for this project.
+  - Phone number verification utilizes the Vonage Library.
+  - Vonage token and Vonage Key are required for phone number verification.
+  - If the Vonage token or Vonage Key is invalid, or if the Vonage message sending quota is filled, phone number verification will not be performed when the Phone Verification toggle is ON.
+
+- US Numbers Only:
+  - Toggle the US Numbers Allowed option to restrict user registration to only US numbers.
+
+- Single User Per IP:
+  - Toggle the Only Single User Per IP option to control whether only one user can be registered per IP address.
+
+Please note that certain settings may require specific configurations or credentials, such as Vonage token and Vonage Key for phone number verification.
+
+
